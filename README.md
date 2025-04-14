@@ -17,5 +17,8 @@ Research Helper - Students can ask research-related questions and get concise, w
 
 Citation Generator - Users can input relevant information about academic papers, and the AI will generate citations in both APA and MLA formats.
 
+Here's the initial view of the Streamlit webpage: ![Screenshot 2025-04-14 at 3 48 52 PM](https://github.com/user-attachments/assets/90280cfa-1109-40a4-ae17-e09d3c56df2c)
+
+
 📬 Contact
 If you have any questions or feedback, please feel free to open an issue or reach out. 
