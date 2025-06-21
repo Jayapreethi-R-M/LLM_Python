@@ -5,22 +5,20 @@ Hello! Thank you for visiting my repository.
 This project contains the code for a Python-based QA (Question-Answer) system that I developed to assist students in their research and academic writing process.
 
 ✨ Project Overview
-In academic environments, students and researchers frequently perform repetitive tasks that can disrupt their writing process. These tasks range from checking sentence structure to verifying proper citation formats. To address this, I built an LLM-powered application using PyCharm and integrated the Groq API, specifically the LLaMA3-70b-8192 model, to leverage its AI capabilities.
+  In academic environments, students and researchers frequently perform repetitive tasks that can disrupt their writing process. These tasks range from checking sentence structure to verifying proper citation formats. To address this, I built an LLM-powered application using PyCharm and integrated the Groq API, specifically the LLaMA3-70b-8192 model, to leverage its AI capabilities.
 
-This model helps users quickly generate relevant and concise academic writing support — including grammar correction, topic idea generation, short research answers, and citation formatting — streamlining common writing challenges. To create a user-friendly experience, I used Streamlit to design an intuitive and interactive front end.
-
-The system was evaluated using custom performance metrics making sure that the outputs were both useful and reliable for academic purposes.
+  This model helps users quickly generate relevant and concise academic writing support — including grammar correction, topic idea generation, short research answers, and citation formatting — streamlining common writing challenges. To create a user-friendly experience, I used Streamlit to design an intuitive and interactive front end. The system was evaluated using custom performance metrics making sure that the outputs were both useful and reliable for academic purposes.
 
 ✨ Functions
-The LLM has four key functionalities:
+  The LLM has four key functionalities:
 
-Grammar Check - Students can paste their text into the platform, and the AI will provide grammar corrections and writing improvement suggestions.
+    Grammar Check - Students can paste their text into the platform, and the AI will provide grammar corrections and writing improvement suggestions.
 
-Topic Generator - By entering an area of study, users get five specific research topics and ideas to guide their writing process.
+    Topic Generator - By entering an area of study, users get five specific research topics and ideas to guide their writing process.
 
-Research Helper - Students can clarify research-related concepts and get concise, well-structured paragraph responses to aid their understanding.
+    Research Helper - Students can clarify research-related concepts and get concise, well-structured paragraph responses to aid their understanding.
 
-Citation Generator - Users can input relevant information about academic papers, and the AI will generate citations in both APA and MLA formats.
+    Citation Generator - Users can input relevant information about academic papers, and the AI will generate citations in both APA and MLA formats.
 
 Here's the initial view of the Streamlit webpage: ![Screenshot 2025-06-20 at 10 41 07 PM](https://github.com/user-attachments/assets/9cd43762-e551-4c43-957f-35a311395bd6)
 
