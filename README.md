@@ -36,11 +36,11 @@ Here's the initial view of the Streamlit webpage: ![Screenshot 2025-06-20 at 10 
 
 🔧 Future Improvements
     Here are several improvements that can enhance both functionality and user experience:
-      * Enable the model to remember previous prompts and responses or remember key information suggested by the user.
-      * Allow users to choose from more citation styles like Chicago, Harvard, or IEEE.
-      * Extend the topic generation feature to include a structured outline for academic writing.
-      * Improve upon the UI, to make it much more streamlined and user friendly.
-      * Use much complex evaluation metrics (Including RAG pipeline) to fine tune the model.
-
+* Enable the model to remember previous prompts and responses or remember key information suggested by the users
+* Allow users to choose from more citation styles like Chicago, Harvard, or IEEE.
+* Extend the topic generation feature to include a structured outline for academic writing.
+* Improve upon the UI, to make it much more streamlined and user friendly.
+* Use much complex evaluation metrics (Including RAG pipeline) to fine tune the model
+  
 📬 Contact
 If you have any questions or feedback, please feel free to open an issue or reach out. Thank you!
