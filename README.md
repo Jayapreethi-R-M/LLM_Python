@@ -11,16 +11,16 @@ This project contains the code for a Python-based QA (Question-Answer) system th
 
 ✨ Functions
   The LLM has four key functionalities:
-    - Grammar Check - Students can paste their text into the platform, and the AI will provide grammar corrections and writing improvement suggestions.
-    - Topic Generator - By entering an area of study, users get five specific research topics and ideas to guide their writing process.
-    - Research Helper - Students can clarify research-related concepts and get concise, well-structured paragraph responses to aid their understanding.
-    - Citation Generator - Users can input relevant information about academic papers, and the AI will generate citations in both APA and MLA formats.
+    * Grammar Check - Students can paste their text into the platform, and the AI will provide grammar corrections and writing improvement suggestions.
+    * Topic Generator - By entering an area of study, users get five specific research topics and ideas to guide their writing process.
+    * Research Helper - Students can clarify research-related concepts and get concise, well-structured paragraph responses to aid their understanding.
+    * Citation Generator - Users can input relevant information about academic papers, and the AI will generate citations in both APA and MLA formats.
 
 Here's the initial view of the Streamlit webpage: ![Screenshot 2025-06-20 at 10 41 07 PM](https://github.com/user-attachments/assets/9cd43762-e551-4c43-957f-35a311395bd6)
 
 
 🔍 More on the Evaluation....
-To evaluate the model performance, I focused on the two most open-ended functions: Answering Research Questions and Generating Topic Ideas. For the more deterministic tasks like — Grammar Checking and Citation Generation — I conducted a manual inspection to verify correctness, and they performed reliably in most cases.
+  To evaluate the model performance, I focused on the two most open-ended functions: Answering Research Questions and Generating Topic Ideas. For the more deterministic tasks like — Grammar Checking and Citation Generation — I conducted a manual inspection to verify correctness, and they performed reliably in most cases.
   1. Research Question Answering
       To assess the quality of generated answers, I used two key metrics:
         * ROUGE-L (Recall-Oriented Understudy for Gisting Evaluation): This evaluates the overlap between the generated answer and a reference (ideal) answer based on longest common sequences. I chose ROUGE-L because it captures both precision (how much of the generated answer matches the reference) and recall (how much of the reference is covered).
