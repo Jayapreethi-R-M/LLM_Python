@@ -1,4 +1,4 @@
-__author__ = 'Jayapreethi Radhakrishnan Madanraj, jayam@ad.unc.edu, Onyen = jayam'
+#This version of the code inclludes the four functions of the model, wiht the custom built evaluation metrics
 
 # ------------------- Imports -------------------
 from groq import Groq
@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer, util
 from rouge_score import rouge_scorer
 
 # ------------------- Config -------------------
-client = Groq(api_key="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")
+client = Groq(api_key="Enter_API_key_here")
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
