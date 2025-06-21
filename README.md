@@ -22,7 +22,8 @@ Research Helper - Students can clarify research-related concepts and get concise
 
 Citation Generator - Users can input relevant information about academic papers, and the AI will generate citations in both APA and MLA formats.
 
-Here's the initial view of the Streamlit webpage: ![Screenshot 2025-04-14 at 3 48 52 PM](https://github.com/user-attachments/assets/90280cfa-1109-40a4-ae17-e09d3c56df2c)
+Here's the initial view of the Streamlit webpage: ![Screenshot 2025-06-20 at 10 41 07 PM](https://github.com/user-attachments/assets/9cd43762-e551-4c43-957f-35a311395bd6)
+
 
 🔍 More on the Evaluation....
 To evaluate the model performance, I focused on the two most open-ended functions: Answering Research Questions and Generating Topic Ideas. For the more deterministic tasks like — Grammar Checking and Citation Generation — I conducted a manual inspection to verify correctness, and they performed reliably in most cases.
